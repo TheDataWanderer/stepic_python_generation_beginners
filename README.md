@@ -30,12 +30,8 @@ Each solution is accompanied by comments to explain the logic of the code. **Not
 
 ## Important Note
 
-These solutions are provided for educational purposes. Do not simply copy the solutions without understanding them—try to solve the exercises on your own first to get the most out of the course.
+These solutions are provided for educational purposes. Do not simply copy the solutions without understanding them - try to solve the exercises on your own first to get the most out of the course.
 
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out via the Issues or Pull Requests on GitHub.
-
----
-
-This version is in English, and it aligns with your original request. Let me know if you need any more adjustments!
