@@ -11,9 +11,22 @@ Each solution is accompanied by comments to explain the logic of the code. **Not
 ## Repository Structure
 
 - **Modules and Lessons**: solutions are grouped by module and lesson numbers.
-  - `module_1/`: contains solutions from Module 1
-  - `module_2/`: contains solutions from Module 2
-  - and so on...
+1. **General Course Information** *(No tasks in this section)* 
+2. **Input and Output**  
+3. **Final Assignment: Input and Output**  
+4. **Conditional Statements**  
+5. **Final Assignment: Conditional Statements**  
+6. **Data Types**  
+7. **Loops: `for` and `while`**  
+8. **Final Assignment: Loops**  
+9. **String Data Type**  
+10. **Final Assignment: Strings**  
+11. **Lists**  
+12. **Final Assignment: Lists**  
+13. **Functions**  
+14. **Final Assignment: Functions**  
+15. **Mini-projects**  
+16. **Conclusion**
 
   Inside each folder, you'll find files named after the corresponding exercise or lesson, making it easier to navigate.
 
