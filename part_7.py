@@ -108,10 +108,11 @@
 # Решение
 num = int(input())
 list_ = []
-while num > 0 and num <6:
-    list_.append(num)
+while num > -1 and num <6:
+    if num == 5:
+        list_.append(num)
     num = int(input())
-print((list_))
+print(len(list_))
 
 
 
