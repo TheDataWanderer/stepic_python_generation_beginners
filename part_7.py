@@ -129,3 +129,110 @@
 # Программа должна вывести минимально возможное количество чеканных монет для оплаты.
 
 # Решение
+# Определение переменных
+# price = int(input())  # Сумма, которую нужно собрать
+# denominations = [25, 10, 5, 1]  # Номиналы монет
+#
+# # Инициализация массива dp
+# dp = [float('inf')] * (price + 1)
+# dp[0] = 0  # 0 монет для суммы 0
+#
+# # Динамическое программирование для нахождения минимального количества монет
+# p = 1
+# while p <= price:
+#     coin_index = 0
+#     while coin_index < len(denominations):
+#         coin = denominations[coin_index]
+#         if p - coin >= 0:  # Если можем использовать монету
+#             dp[p] = min(dp[p], dp[p - coin] + 1)
+#         coin_index += 1  # Переход к следующей монете
+#     p += 1  # Переход к следующей сумме
+#
+# # Проверяем вывод результата
+# print(dp[price])
+
+#
+# num = 12345
+# product = 1
+# while num != 0:
+#     last_digit = num % 10
+#     product = product * last_digit
+#     num = num // 10
+# print(product)
+#
+
+
+# num = int(input())
+# while num != 0:
+#     num_last = num % 10
+#     print(num_last)
+#     num = num // 10
+
+
+# num = int(input())
+# num_new = []
+# while num != 0:
+#     num_last = num % 10
+#     num_new.append(num_last)
+#     num = num // 10
+# for num in num_new:
+#     print(num, end='')
+
+# num = int(input())
+# num_new = []
+# while num != 0:
+#     num_last = num % 10
+#     num_new.append(num_last)
+#     num = num // 10
+# print(f' Максимальная цифра равна {max(num_new)}')
+# print(f' Минимальная цифра равна {min(num_new)}')
+
+# num = int(input())
+# flag = True
+# for i in range(2, num):
+#     if num % i == 0:  #  если исходное число делится на какое-либо отличное от 1 и самого себя
+#         flag = False
+# if num == 1:
+#     print('Это единица, она не простая и не составная')
+# elif flag == True:
+#     print('Число простое')
+# else:
+#     print('Число составное')
+#
+#
+# # Ввод числа
+# n = int(input())
+# n_str = str(n)  # Преобразуем число в строку
+# first_digit = n_str[0]  # Запоминаем первую цифру
+# index = 1  # Начинаем с индекса 1
+#
+# # Переменная для хранения результата
+# all_same = True  # Предполагаем, что все цифры одинаковые
+#
+# # Цикл проверки с использованием while
+# while index < len(n_str):
+#     if n_str[index] != first_digit:  # Если цифра не совпадает с первой
+#         all_same = False  # Мы нашли различие
+#         break  # Прерываем цикл, так как нашли различие
+#     index += 1  # Переходим к следующей цифре
+#
+# # Проверяем результат
+# if all_same:
+#     print("YES")  # Все цифры одинаковые
+# else:
+#     print("NO")   # Есть различные цифры
+
+# 7.6
+# num = int(input())
+# for i in range(2, num+1):
+#     if num % i == 0:
+#         print(i)
+#         break
+
+
+# num = int(input())
+# for i in range(1, num+1):
+#     if 5<=i<=9 or 17<=i<=37 or 78<=i<=87:
+#         continue
+#     else:
+#         print(i)
